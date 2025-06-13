@@ -4,7 +4,8 @@ import axios from 'axios';
 
 function RoomList() {
   const [rooms, setRooms] = useState([]);
-  const backendUrl = "http://localhost:5000"; // Update with your backend URL
+  const backendUrl = "https://society-maintainance-system-bakend.onrender.com"; // Update with your backend URL
+  // const backendUrl = "http://localhost:5000"; // Update with your backend URL
   const fetchRooms = async () => {
     const res = await axios.get(`${backendUrl}/rooms`);
     setRooms(res.data);
