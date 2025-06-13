@@ -1,0 +1,19 @@
+# Node modules (frontend and backend)
+client/node_modules/
+society-maintenance/node_modules/
+
+# Environment files
+society-maintenance/.env
+client/.env
+
+# Build folders
+client/dist/
+society-maintenance/dist/
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
